@@ -1,0 +1,9 @@
+INSTALLED_APPS = (
+    ...
+    'licensing',
+)
+
+from licensing.models import Licensed
+
+class Whatever(Licensed):
+    pass
